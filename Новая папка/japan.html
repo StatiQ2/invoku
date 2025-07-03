@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИВК</title>
+    <link rel="icon" href="./assets/icons/zdxV2YOibNs.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="english.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="./Assets/img/logo.jpg" alt="Институт Восточной Культуры">
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="./course.html">Курсы</a></li>
+                        <li><a href="./uslugi.html">Услуги</a></li>
+                        <li><a href="./blog.html">Блог</a></li>
+                        <li><a href="./events.html">Мероприятия</a></li>
+                    </ul>
+                </nav>
+                <div class="city-selector">
+                    <div class="current-city" id="currentCity">
+                        Тольятти
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <ul class="city-list" id="cityList">
+                        <li data-city="tolyatti">Тольятти</li>
+                        <li data-city="samara">Самара</li>
+                        <li data-city="simferopol">Симферополь</li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основное содержимое страницы -->
+    <section class="country-map-section">
+            <div class="container">
+                <div class="map-container">
+                    <img src="./Assets/img/japan map.png" alt="" class="country-map">
+                </div>
+            </div>
+    </section>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Японский язык</h1>
+                <p class="subtitle">Онлайн и офлайн курсы японсккого языка в Тольятти</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Курсы по уровням -->
+    <section class="courses-levels">
+        <div class="container">
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Для начинающих</h3>
+                    <p>Базовый курс английского языка с нуля</p>
+                    <a  class="btn btn-outline">Подробнее</a>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Для продолжающих</h3>
+                    <p>Совершенствование языковых навыков</p>
+                    <a href="" class="btn btn-outline">Подробнее</a>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Подготовка к экзаменам</h3>
+                    <p>JLPT</p>
+                    <a href="#exams" class="btn btn-outline">Подробнее</a>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Индивидуальные занятия</h3>
+                    <p>Персональный подход к обучению</p>
+                    <a href="#individual" class="btn btn-outline">Подробнее</a>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Онлайн-курс</h3>
+                    <p>Обучение из любой точки мира</p>
+                    <a href="#online" class="btn btn-outline">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Общий вид курсов -->
+    <section class="courses-overview">
+        <div class="container">
+            <img src="./Assets/img/jap dvorets.png" alt="" width="1155" height="300">
+        </div>
+    </section>
+
+    <!-- Описание курсов -->
+    <section class="course-details" id="beginner">
+        <div class="container">
+            <div class="course-row">
+                <div class="course-image">
+                    <img src="./Assets/img/planshet.png" alt="Курс для начинающих">
+                </div>
+                <div class="course-info">
+                    <h3>Японский язык для начинающих</h3>
+                    <p>Если вы никогда не изучали японский язык прежде - этот курс для вас. Вы научитесь составлять простые предложения на повседневные тематики, сможете рассказать о себе собеседнику, научитесь понимать и читать тексты на хирагане и катакане, а также будете знать минимальную иероглифическую базу. Программа основана на различных учебниках: Minna no Nihongo, Marugoto, а также на дополнительных материалах и разработках преподавателя.</p>
+                    <ul>
+                        <li> Длительность: 10 месяцев (2 часа в неделю)</li>
+                        <li> Групповые и индивидуальные занятия</li>
+                        <li>Уровень владения языком по окончании курса = N5+</li>
+                    </ul>
+                    <p>Уровни владения японским языком градируются от N1 до N5, где N5 - начинающий, а N1 - уровень носителя. Присваивается при прохождении JLPT - международного экзамена на знание японского</p>
+                    <a href="" class="btn btn-primary">Записаться на пробный урок</a>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section class="course-details alt-bg" id="intermediate">
+        <div class="container">
+            <div class="course-row reverse">
+                <div class="course-image">
+                    <img src="./Assets/img/sertif jap.png" alt="Курс для продолжающих">
+                </div>
+                <div class="course-info">
+                    <h3>Японский язык для продолжающих</h3>
+                    <p>Курс для продолжающих направлен на развитие навыков чтения, аудирования, письменной и устной речи. Уклон на использование языка в жизни: составление диалогов, выражение мыслей, предположений, восприятие информации на слух. На протяжении курса проводятся дополнительные тематические занятия, посвященные определенным праздникам и событиям. Курс основан на учебнике Minna no Nihongo, а также дополнительных аудио - и видеоматериалах.</p>
+                    <ul>
+                        <li> Длительность: 10 месяцев (2 часа в неделю)</li>
+                        <li> Групповые и индивидуальные занятия</li>
+                        <li>Уровень владения языком по окончании курса = N4+</li>
+                    </ul>
+                    <a href="#form" class="btn btn-primary">Записаться на пробный курс</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="course-details" id="beginner">
+        <div class="container">
+            <div class="course-row">
+                <div class="course-image">
+                    <img src="./Assets/img/marker jap.png" alt="Курс для начинающих">
+                </div>
+                <div class="course-info">
+                    <h3>Индивидуальные занятия по японскому языку</h3>
+                    <p>Материал выбирается, отталкиваясь от возраста, целей и возможностей обучающегося.</p>
+                    <ul>
+                        <li>Уровень знаний: с нуля, продолжающий и продвинутый. В программе для индивидуальных занятий используются учебники, рабочие тетради и аудио-упражнения.</li>
+                        <li> Длительность: от 1 часа в неделю</li>
+                        <li> Индивидуально или в парах (по желанию учеников)</li>
+                    </ul>
+                    <a href="" class="btn btn-primary">Записаться на пробный урок</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="course-details" id="beginner">
+        <div class="container">
+            <div class="course-row">
+                
+                <div class="course-info">
+                    <h3>Онлайн-курсы английского</h3>
+                    <p>Занятия японским языком с преподавателем в онлайн формате через Zoom и Discord. Используем традиционные методические пособия и игровые методики для лучшего запоминания. Изучаем культуру в контексте языка.</p>
+                    <ul>
+                        <li> Уровень: для начинающих, продолжающих, детей.</li>
+                        <li>Длительность 1 час + домашние задания</li>
+                        <li> Занятия в группах, набор online-групп идёт круглый год</li>
+                    </ul>
+                    <a href="" class="btn btn-primary">Записаться на пробный урок</a>
+                </div>
+                <div class="course-image">
+                    <img src="./Assets/img/online eng.png" alt="Курс для начинающих">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="course-details" id="beginner">
+        <div class="container">
+            <div class="course-row">
+                <div class="course-image">
+                    <img src="./Assets/img/class jap.png" alt="Курс для начинающих">
+                </div>
+                <div class="course-info">
+                    <h3>Подготовка к JLPT</h3>
+                    <p>Наши ученики успешно сдают международный экзамен на знание японского языка - JLPT (Нихонго норёку сикэн) после прохождения курса-подготовки. Экзамен можно сдавать начиная с минимального уровня владения языком. Курс нацелен на подготовку к самой технике сдачи экзамена и отработке уже знакомого материала.</p>
+                    <ul>
+                        <li>Длительность: 2 месяца (1,5 часа в неделю)</li>
+                        <li>Необходимый уровень от N5</li>
+                    </ul>
+                    <a href="" class="btn btn-primary">Записаться на пробный урок</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Преподаватель -->
+    <section class="teacher-section">
+        <div class="container">
+            <h2>Преподаватель в Тольятти</h2>
+            <div class="teacher-profile">
+                <div class="teacher-photo">
+                    <img src="./Assets/img/jap teach 1.png" alt="Преподаватель английского">
+                </div>
+                <div class="teacher-info">
+                    <h2>Андрей Шевченко</h2>
+                    <h3>Преподаватель японского языка</h3>
+                    <p class="teacher-bio">Проходил стажировку в Японии по программе молодежного обмена. Участник программы повышения квалификации Japan Foundation. Победитель форума «Межкультурный диалог 2020г.». На уроках особое внимание уделяет изучению японской культуре. Опыт преподавания более 3 лет.</p>
+                    
+                    <div class="pricing">
+                        <h4>Стоимость занятий:</h4>
+                        <ul>
+                            <li>Групповые занятия - 2,800 руб./мес</li>
+                            <li>Индивидуальные занятия - От 900руб</li>
+                            <li>Онлайн-курс - 2,800 руб./мес</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="teacher-section">
+        <div class="container">
+            <div class="teacher-profile">
+                <div class="teacher-photo">
+                    <img src="./Assets/img/jap teach2.png" alt="Преподаватель английского">
+                </div>
+                <div class="teacher-info">
+                    <h2>Екатерина Вдовина</h2>
+                    <h3>Преподаватель японского языка</h3>
+                    <p class="teacher-bio">Обладает красным дипломом по специальности "переводчик-лингвист" и сертификатом международного экзамена по японскому языку JLPT. Опыт работы - более 8 лет.Сама создает учебные материалы. На уроках поддерживает теплую, дружелюбную атмосферу. Активно использует в обучении аутентичные материалы: аниме, ютуб-видео, литературу, мангу, фильмы и музыку.</p>
+                    
+                    <div class="pricing">
+                        <h4>Стоимость занятий:</h4>
+                        <ul>
+                            <li>Групповые занятия - 2,800 руб./мес</li>
+                            <li>Индивидуальные занятия - От 900руб</li>
+                            <li>Онлайн-курс - 2,800 руб./мес</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="#form" class="btn btn-primary">Записаться на пробный курс</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="ivk-footer">
+        <div class="footer-container">
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <div class="ivk-logo">
+                        <img src="./Assets/img/logo.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="index.html#programs">Курсы</a></li>
+                        <li><a href="index.html#services">Услуги</a></li>
+                        <li><a href="index.html#ball">Блог</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <ul>
+                        <li><a href="index.html#about">Об организации</a></li>
+                        <li><a href="index.html#contacts">Контакты</a></li>
+                        <li><a href="index.html#partnership">Партнерство</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <ul>
+                        <li><a>Политика конфиденциальности</a></li>
+                        <li class="developer">Разработчик<br>СВИНТУС-ТЕAM</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col addresses">
+                    <h3>Адреса офисов в Тольятти</h3>
+                    <p>Ул. 70 лет Октября, 60</p>
+                    <p>ул. Ленинградская, 27</p>
+                    <p>Ул. Революционная, 52а</p>
+                    <p>"Русь на Волге", БЦ, оф. 614</p>
+                </div>
+
+                <div class="footer-col contact">
+                    <h3>Связаться с нами</h3>
+                    <a href="tel:89170334891" class="phone">8 917 033 48 91</a>
+                </div>
+
+                <div><p class="years">2016–2025<br>Институт Восточной Культуры</p></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

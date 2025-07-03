@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИВК</title>
+    <link rel="icon" href="./assets/icons/zdxV2YOibNs.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="english.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="./Assets/img/logo.jpg" alt="Институт Восточной Культуры">
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="./index.html">Главная</a></li>
+                        <li><a href="./course.html">Курсы</a></li>
+                        <li><a href="./uslugi.html">Услуги</a></li>
+                        <li><a href="./blog.html">Блог</a></li>
+                        <li><a href="./events.html">Мероприятия</a></li>
+                    </ul>
+                </nav>
+                <div class="city-selector">
+                    <div class="current-city" id="currentCity">
+                        Тольятти
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <ul class="city-list" id="cityList">
+                        <li data-city="tolyatti">Тольятти</li>
+                        <li data-city="samara">Самара</li>
+                        <li data-city="simferopol">Симферополь</li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+            <h1>Блог</h1>
+            <h2>Наши лучшие статьи</h2>
+        </div> 
+    </section>
+
+    <!-- Секция "Курсы по языкам" -->
+    <section class="language-courses">
+        <div class="container">
+            <div class="courses-grid">
+                <!-- Карточка 1 - Английский -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="./Assets/img/blog photo 1.png" alt="Английский язык">
+                    </div>
+                    <div class="course-content">
+                        <h3>Празднуем Чусок </h3>
+                        <p>День благодарения по-корейски</p>
+                        <a href="" class="course-btn">Читать статью</a>
+                    </div>
+                </div>
+
+                <!-- Карточка 2 - Китайский -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="./Assets/img/blog photo 2.png" alt="Китайский язык">
+                    </div>
+                    <div class="course-content">
+                        <h2>Три золотых правила изучения языка</h2>
+                        <a href="" class="course-btn">Подробнее</a>
+                    </div>
+                </div>
+
+                <!-- Карточка 3 - Корейский -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="./Assets/img/blog photo 3.png" alt="Корейский язык">
+                    </div>
+                    <div class="course-content">
+                        <h3>Экзамен TOPIK: рекомендуемые учебники</h3>
+                        <a href="" class="course-btn">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="ivk-footer">
+        <div class="footer-container">
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <div class="ivk-logo">
+                        <img src="./Assets/img/logo.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="index.html#programs">Курсы</a></li>
+                        <li><a href="index.html#services">Услуги</a></li>
+                        <li><a href="index.html#ball">Блог</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <ul>
+                        <li><a href="index.html#about">Об организации</a></li>
+                        <li><a href="index.html#contacts">Контакты</a></li>
+                        <li><a href="index.html#partnership">Партнерство</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <ul>
+                        <li><a>Политика конфиденциальности</a></li>
+                        <li class="developer">Разработчик<br>СВИНТУС-ТЕAM</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col addresses">
+                    <h3>Адреса офисов в Тольятти</h3>
+                    <p>Ул. 70 лет Октября, 60</p>
+                    <p>ул. Ленинградская, 27</p>
+                    <p>Ул. Революционная, 52а</p>
+                    <p>"Русь на Волге", БЦ, оф. 614</p>
+                </div>
+
+                <div class="footer-col contact">
+                    <h3>Связаться с нами</h3>
+                    <a href="tel:89170334891" class="phone">8 917 033 48 91</a>
+                </div>
+
+                <div><p class="years">2016–2025<br>Институт Восточной Культуры</p></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
